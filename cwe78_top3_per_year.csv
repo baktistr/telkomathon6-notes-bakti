@@ -1,0 +1,27 @@
+Year,Rank,CVE,CVSSv3,Description
+2020,1,CVE-2020-12522,10.0,"The reported vulnerability allows an attacker who has network access to the device to execute code with specially crafted packets in WAGO Series PFC 100 (750-81xx/xxx-xxx), Series PFC 200 (750-82xx/xxx-xxx), Series Wago Touch Panel 600 Standard Line (762-4xxx), Series Wago Touch Panel 600 Advanced Line (762-5xxx), Series Wago Touch Panel 600 Marine Line (762-6xxx) with firmware versions <=FW10."
+2020,2,CVE-2020-6364,10.0,"SAP Solution Manager and SAP Focused Run (update provided in WILY_INTRO_ENTERPRISE 9.7, 10.1, 10.5, 10.7), allows an attacker to modify a cookie in a way that OS commands can be executed and potentially gain control over the host running the CA Introscope Enterprise Manager,leading to Code Injection. With this, the attacker is able to read and modify all system files and also impact system availability."
+2020,3,CVE-2019-5138,9.9,"An exploitable command injection vulnerability exists in encrypted diagnostic script functionality of the Moxa AWK-3131A firmware version 1.13. A specially crafted diagnostic script file can cause arbitrary busybox commands to be executed, resulting in remote control over the device. An attacker can send diagnostic while authenticated as a low privilege user to trigger this vulnerability."
+2021,1,CVE-2020-29495,10.0,"DELL EMC Avamar Server, versions 19.1, 19.2, 19.3, contain an OS Command Injection Vulnerability in Fitness Analyzer. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the application's underlying OS with high privileges. This vulnerability is considered critical as it can be leveraged to completely compromise the vulnerable application as well as the underlying operating system. Dell recommends customers to upgrade at the earliest opportunity."
+2021,2,CVE-2021-22657,10.0,"mySCADA myPRO: Versions 8.20.0 and prior has a feature where the API password can be specified, which may allow an attacker to inject arbitrary operating system commands through a specific parameter."
+2021,3,CVE-2021-23198,10.0,"mySCADA myPRO: Versions 8.20.0 and prior has a feature where the password can be specified, which may allow an attacker to inject arbitrary operating system commands through a specific parameter."
+2022,1,CVE-2021-27476,10.0,"A vulnerability exists in the SaveConfigFile function of the RACompare Service, which may allow for OS command injection. This vulnerability may allow a remote, unauthenticated attacker to execute arbitrary commands in Rockwell Automation FactoryTalk AssetCentre v10.00 and earlier."
+2022,2,CVE-2021-32933,10.0,An attacker could leverage an API to pass along a malicious file that could then manipulate the process creation command line in MDT AutoSave versions prior to v6.02.06 and run a command line argument. This could then be leveraged to run a malicious process.
+2022,3,CVE-2022-20708,10.0,"Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code Elevate privileges Execute arbitrary commands Bypass authentication and authorization protections Fetch and run unsigned software Cause denial of service (DoS) For more information about these vulnerabilities, see the Details section of this advisory."
+2023,1,CVE-2023-2131,10.0,"Versions of INEA ME RTU firmware prior to 3.36 are vulnerable to OS command injection, which could allow an attacker to remotely execute arbitrary code."
+2023,2,CVE-2023-2564,10.0,"OS Command Injection in GitHub repository sbs20/scanservjs prior to v2.27.0.
+
+"
+2023,3,CVE-2023-3572,10.0,"In PHOENIX CONTACTs WP 6xxx series web panels in versions prior to 4.0.10 a remote, unauthenticated attacker may use an attribute of a specific HTTP POST request releated to date/time operations to gain full access to the device."
+2024,1,CVE-2024-1212,10.0,"Unauthenticated remote attackers can access the system through the LoadMaster management interface, enabling arbitrary system command execution.
+
+
+"
+2024,2,CVE-2024-1297,10.0,"Loomio version 2.22.0 allows executing arbitrary commands on the server.
+
+This is possible because the application is vulnerable to OS Command Injection.
+
+
+
+"
+2024,3,CVE-2024-23108,10.0,An improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiSIEM version 7.1.0 through 7.1.1 and 7.0.0 through 7.0.2 and 6.7.0 through 6.7.8 and 6.6.0 through 6.6.3 and 6.5.0 through 6.5.2 and 6.4.0 through 6.4.2 allows attacker to execute unauthorized code or commands via via crafted API requests.
