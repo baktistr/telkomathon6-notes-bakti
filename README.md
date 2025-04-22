@@ -2,17 +2,10 @@
 
 This repository contains notes and resources for the Telkomathon6 project.
 
-## Latest Update
-
-**Commit:** `Command Injection`  
-**Date:** `2023-04-23`  
-**Message:** `Added initial project structure and notes.`
-
 ## Files
 
 - `README.md` - Project overview and updates.
-- `notes/` - Directory containing detailed notes.
-- `resources/` - Supporting files and references.
+- `command-injection/` - Supporting files and references of Command Injection Materials.
 
 ## How to Use
 
